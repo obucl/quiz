@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet"> 
+  <title>Quiz App</title>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-header">Quiz App</span>
+    <span class="counter">Mark:&nbsp;</span>
+    <span id="correct-index">0</span>
+    <span>/</span>
+    <span id="index">0</span>
+  </nav>
+  <div class="div-quiz">
+    <section class="quiz-section">
+      <p id="quiz-question">Welcome to a simple 5 Questions Quiz, with just 3 options as shown below, click the Next Button to begin, Goodluck!</p><hr/>
+      <ul id="quiz-options" class="quiz-options">
+        <li id="first-option">(A)</li>
+        <li id="second-option">(B)</li>
+        <li id="third-option">(C)</li>
+      </ul>
+      <p id="quiz-end"></p>
+      <button type="button" id="quiz-next">Next</button>
+    </section>
+  </div>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+  margin: auto 0px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.nav {
+  background-color: #343a40;
+  margin: 0px;
+  padding: 1% 5%;
+  display: flex;
+  color: #ffffff;
+}
+
+.counter {
+  margin-left: auto;
+}
+
+.div-quiz {
+  width: 50%;
+  padding: 10px 30px;
+  margin: 30px auto;
+  border: 1px #bdbebe solid;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #bdbebe;
+}
+
+#quiz-question {
+  font-size: 1.25em;
+  margin: 35px auto 10px;
+  color: #0c22e9;
+}
+
+.quiz-options {
+  padding: 0;
+  margin: 0;
+}
+
+.quiz-options li {
+  list-style: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px 10px;
+  margin: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.quiz-options li:hover {
+  background-color: #e0e0e0;
+}
+
+.correctAnswer {
+  background-color: #0ce90c !important;
+  color: #ffffff !important;
+}
+
+.wrongAnswer {
+  background-color: #dd3030 !important;
+  color: #ffffff !important;
+}
+
+#quiz-end {
+  color: #0c22e9;
+}
+
+#quiz-next {
+  cursor: pointer;
+  padding: 8px 25px;
+}
